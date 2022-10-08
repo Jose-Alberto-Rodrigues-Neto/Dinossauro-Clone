@@ -11,7 +11,6 @@
     {"id":{"name":"Spr_Background1","path":"sprites/Spr_Background1/Spr_Background1.yy",},"order":0,},
     {"id":{"name":"Obj_player3","path":"objects/Obj_player3/Obj_player3.yy",},"order":5,},
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},"order":0,},
-    {"id":{"name":"Spr_indicador2","path":"sprites/Spr_indicador2/Spr_indicador2.yy",},"order":4,},
     {"id":{"name":"Spr_chao","path":"sprites/Spr_chao/Spr_chao.yy",},"order":3,},
     {"id":{"name":"Spr_player","path":"sprites/Spr_player/Spr_player.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
