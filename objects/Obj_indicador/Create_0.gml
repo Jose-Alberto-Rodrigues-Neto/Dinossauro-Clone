@@ -1,3 +1,2 @@
-contador=100;
-
+contador=10;
 
