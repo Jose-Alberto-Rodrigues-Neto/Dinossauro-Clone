@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Obj_chao",
   "spriteId": {
-    "name": "Sprite4",
-    "path": "sprites/Sprite4/Sprite4.yy",
+    "name": "Spr_chao",
+    "path": "sprites/Spr_chao/Spr_chao.yy",
   },
   "solid": true,
   "visible": true,
