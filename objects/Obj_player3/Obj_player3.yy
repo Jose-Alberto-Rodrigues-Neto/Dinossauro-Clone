@@ -6,7 +6,7 @@
     "name": "Spr_player",
     "path": "sprites/Spr_player/Spr_player.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
