@@ -9,13 +9,25 @@ Dando continuidade ao assunto em pauta, o Game Maker Studio 2 (GMS2) é uma engi
 
 ## Ambiente de trabalho
 
-O ambiente de trabalho do GMS2 possui dois locais que são de extrema importância. Sendo eles 
+O ambiente de trabalho do GMS2 possui dois locais que são de extrema importância. Sendo eles o *Workspace* e as *Rooms*.
+
+### ***Workspace***
+
+Esse é o local onde o você irá passar a maior parte do tempo, nele você irá criar objetos, sprites, scripts, entre outros. Assim, é importante manter um pouco de organização nesse processo, para que não fique perdido a cada vez que abrir novamente o projeto.
+Há outras utilidades para a mesma também, porém no momento não há necessidade de adentrar mais, visto que o ponto principal desse minicurso é proporcionar uma visão inicial do Game Maker Studio 2.
+
+![Workspace](https://user-images.githubusercontent.com/112759509/200150410-9eb01e60-819b-44aa-b5fb-d6aedda07cab.png)
 
 
+### ***Rooms***
 
+Esse é o local onde você irá dispor visualmente por *"Drag and Drop"* os objetos em que você trabalhou no *Workspace*, ou seja, é o local onde você terá uma pré-visualização de como o jogo ficará de forma visual na versão final. 
+Há outras utilidades para a mesma também, porém no momento não há necessidade de adentrar mais, visto que o ponto principal desse minicurso é proporcionar uma visão inicial do Game Maker Studio 2.
+
+![Room](https://user-images.githubusercontent.com/112759509/200150550-68060d26-492d-4ec1-a1be-2e63fd8bc896.png)
 
 
 
 Bibliografia:
->- https://tecnoblog.net/responde/o-que-e-uma-engine-de-jogos/
->- https://gamemaker.io/pt-BR/showcase?page=2&genres=%5B%5D&platforms=%5B%5D
+>- [O que é uma Engine?](https://tecnoblog.net/responde/o-que-e-uma-engine-de-jogos/)
+>- [Lista de jogos criados em Game Maker Studio 2](https://gamemaker.io/pt-BR/showcase?page=2&genres=%5B%5D&platforms=%5B%5D)
