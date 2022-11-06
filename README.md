@@ -8,7 +8,7 @@ Dito isto, nessa jornada iremos percorrer por alguns tópicos, tais quais:
 
 ### Tópicos
 
->- [Por que o Game Maker Studio 2?](https://github.com/Jose-Alberto-Rodrigues-Neto/Dinossauro-Clone/blob/0a38e32f354e3308146ad0ed6004a1e1517061ac/PorqueGMS2.md)
+>- [Por que o Game Maker Studio 2?](PorqueGMS2.md)
 >   - Ambiente de trabalho da Engine
 >   - Linguagem própria
 >   - POO - simplificada
