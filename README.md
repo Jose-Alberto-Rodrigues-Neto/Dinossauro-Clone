@@ -29,4 +29,6 @@ Dito isto, nessa jornada iremos percorrer por alguns tópicos, tais quais:
 >     - *"Move set"* do chefão
 >     - Como matar o chefão
 
-Obs: Vale ressaltar que os arquivos do projeto se encontram na branch ***"master"***
+Obs: Vale ressaltar que os arquivos do projeto se encontram na branch ***"master"***. Não sobe como mudar de branch? 
+
+
