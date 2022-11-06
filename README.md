@@ -28,3 +28,5 @@ Dito isto, nessa jornada iremos percorrer por alguns tópicos, tais quais:
 >     - *"Spawn"* do chefão
 >     - *"Move set"* do chefão
 >     - Como matar o chefão
+
+Obs: Vale ressaltar que os arquivos do projeto se encontram na branch ***"master"***
