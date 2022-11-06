@@ -9,7 +9,7 @@ Dando continuidade ao assunto em pauta, o Game Maker Studio 2 (GMS2) é uma engi
 
 ## Ambiente de trabalho
 
-O ambiente de trabalho do GMS2 possui dois locais que são de extrema importância
+O ambiente de trabalho do GMS2 possui dois locais que são de extrema importância. Sendo eles 
 
 
 
