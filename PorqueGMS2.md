@@ -27,7 +27,13 @@ Há outras utilidades para a mesma também, porém no momento não há necessida
 ![Room](https://user-images.githubusercontent.com/112759509/200150550-68060d26-492d-4ec1-a1be-2e63fd8bc896.png)
 
 
+## POO simplificado
+
+Antes de saber como a Programação Orientada a Objetos (*POO*) é implementada nessa *framework*, primeiro nós devemos entender o que é *POO*. Deve-se ter em mente que a Orientação a Objeto tem como um de seus objetivos aproximar o algoritimo utilizado com a relação de manuseio das coisas do mundo real.
+
+
 
 Bibliografia:
 >- [O que é uma Engine?](https://tecnoblog.net/responde/o-que-e-uma-engine-de-jogos/)
 >- [Lista de jogos criados em Game Maker Studio 2](https://gamemaker.io/pt-BR/showcase?page=2&genres=%5B%5D&platforms=%5B%5D)
+>- [POO: o que é?](https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos)
