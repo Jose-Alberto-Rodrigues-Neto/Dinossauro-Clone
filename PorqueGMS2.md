@@ -27,9 +27,21 @@ Há outras utilidades para a mesma também, porém no momento não há necessida
 ![Room](https://user-images.githubusercontent.com/112759509/200150550-68060d26-492d-4ec1-a1be-2e63fd8bc896.png)
 
 
+## Linguagem própria
+
+A linguagem utilizada pelo Game Maker Studio 2 é própria da engine, com isso em mente é importante ressaltar que esse artifício torna muito mais simplificado o desenvolvimento de jogos com a utilização dessa linguagem, visto que programar alguma mecânica de jogo acaba sendo bem mais dinâmico do que programar em alguma linguagem que não oferece esse tipo de suporte. Por exemplo, para desenhar um texto na tela do jogo você só precisa digitar a linha de código:
+
+> draw_text(orientação x, orientação y, "texto que deseja digitar na tela");
+
+Mais para frente será explicado como implementaremos essa linha em nosso jogo e como ele será apresentado para o jogador.
+
+
 ## POO simplificado
 
 Antes de saber como a Programação Orientada a Objetos (*POO*) é implementada nessa *framework*, primeiro nós devemos entender o que é *POO*. Deve-se ter em mente que a Orientação a Objeto tem como um de seus objetivos aproximar o algoritimo utilizado com a relação de manuseio das coisas do mundo real.
+Esse paradgima se baseia em dois conceitos chaves, classe e objeto. Para nosso caso, com o *POO* simplificado pela engine nossa maior preocupação acaba sendo apenas os objetos. Dito isso, não nos aprofundaremos no conceito de *POO*, porém vale ressaltar que com sua simplificação devido a *framework* a implementação de características da Programação Orientada a Objetos, por exemplo a "herançaa", é bem mais simples de se implementar, já que literalmente pode ser feito em dois cliques.
+
+
 
 
 
