@@ -41,11 +41,32 @@ Mais para frente será explicado como implementaremos essa linha em nosso jogo e
 Antes de saber como a Programação Orientada a Objetos (*POO*) é implementada nessa *framework*, primeiro nós devemos entender o que é *POO*. Deve-se ter em mente que a Orientação a Objeto tem como um de seus objetivos aproximar o algoritimo utilizado com a relação de manuseio das coisas do mundo real.
 Esse paradgima se baseia em dois conceitos chaves, classe e objeto. Para nosso caso, com o *POO* simplificado pela engine nossa maior preocupação acaba sendo apenas os objetos. Dito isso, não nos aprofundaremos no conceito de *POO*, porém vale ressaltar que com sua simplificação devido a *framework* a implementação de características da Programação Orientada a Objetos, por exemplo a "herançaa", é bem mais simples de se implementar, já que literalmente pode ser feito em dois cliques.
 
+Caso ainda não tenha entendido por completo como isso acontece, não tem problema, pois irei abordar de forma resumida o conceito de objetos que é utilizado na *framework* escolhida, no caso o Game Maker Studio 2.
+
+## Objetos e suas segmentações
+
+O Game Maker Studio 2 trabalha com o conceito de objetos para criar os artifícios que serão utilizados no desenvolvimento do jogo, além de também ser o que o jogador irá estar visualizando na tela. 
+
+Dito isso, primeiramente iremosexplicitar o que é um objeto. Um objeto, por definição, é algo material que pode ser percebido pelos sentidos, ou seja, é algo que alguém consegue perceber no mundo. Em nosso contexto, um objeto será algo que o jogador irá ver e interagir através dos controles propostos pelos desenvolvedores. Porém como chegamos até esse estado? Primeiro devemos regredir alguns passos e entender a função do objeto na *engine*.
+
+Na *framework* a qual me refiro nesse texto a função de um objeto se resume a:
+
+- Receber e Orientar o *sprite*(arte);
+- Receber, Orientar e "Executar" o *script*(código);
+- Definir a *hitbox* do Objeto;
+- Orientar os pontos x e y do Objeto;
+
+Orientar o jogador em relação ao que ele pode ou não fazer, por meio de mecânicas que foram implementadas no código e de forma visual, para causar um *feedback* mais sensitivo no usuário, fazendo com que ele realmente se sinta no jogo.
 
 
 
+---
 
 Bibliografia:
 >- [O que é uma Engine?](https://tecnoblog.net/responde/o-que-e-uma-engine-de-jogos/)
 >- [Lista de jogos criados em Game Maker Studio 2](https://gamemaker.io/pt-BR/showcase?page=2&genres=%5B%5D&platforms=%5B%5D)
 >- [POO: o que é?](https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos)
+
+---
+
+[Voltar para a página inicial.](README.md)
