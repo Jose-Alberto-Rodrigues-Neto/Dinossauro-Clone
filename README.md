@@ -13,7 +13,7 @@ Dito isto, nessa jornada iremos percorrer por alguns tópicos, tais quais:
 >   - Linguagem própria
 >   - POO - simplificada
 >   - Objetos que fazem parte da Room e suas segmentações
->- Mecânicas/Cerne do jogo do dinossauro
+>- [Mecânicas/Cerne do jogo do dinossauro](Mecânicas/MecânicasDoJogo.md)
 >   - Mecânicas do jogador
 >     - Movimento do jogador
 >     - Interação com a Room
