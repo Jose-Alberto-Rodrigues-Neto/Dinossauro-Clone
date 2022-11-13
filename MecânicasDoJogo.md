@@ -6,8 +6,6 @@ Agora iremos iniciar a parte pelo qual aquele que está lendo esse texto estava 
 
 Para dar início a explicações mais aprofundadas sobre como fazer o jogo do Dinossauro, primeiro precisamos entender como ele funciona, ou seja, o que compôem sua identidade, seu **cerne**, para que então possamos replica-lo da nossa forma.
 
----
-
 ## O cerne do jogo
 
 O que torna o jogo do dinossauro tão caracteristico é sua simplicidade, desde a arte até as mecânicas. Seu estilo de jogo, ou gênero, é conhecido como *Endless-Runner*, que como o nome mesmo diz se resume a um jogo cujo o objetivo é correr infinitamente até que algum evento aconteça, em nosso caso, até que o Dinossauro morra.
@@ -17,5 +15,6 @@ O que torna o jogo do dinossauro tão caracteristico é sua simplicidade, desde 
 Bibliográfia:
 >
 
+---
 
 [Voltar para a página inicial.](README.md)
