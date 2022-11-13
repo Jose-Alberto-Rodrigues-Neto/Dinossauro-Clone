@@ -58,6 +58,8 @@ Na *framework* a qual me refiro nesse texto a função de um objeto se resume a:
 
 Orientar o jogador em relação ao que ele pode ou não fazer, por meio de mecânicas que foram implementadas no código e de forma visual, para causar um *feedback* mais sensitivo no usuário, fazendo com que ele realmente se sinta no jogo.
 
+Você pode ver como um objeto na dentro do Game Maker se paresse voltando na imagem que foi utilizada para exemplificar o *Workspace*, visto que é lá onde você acessa e modifica os objetos criados para o jogo.
+
 
 
 ---
