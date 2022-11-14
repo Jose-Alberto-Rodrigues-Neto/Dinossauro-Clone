@@ -28,12 +28,17 @@ Dito isso, o que poderiamos fazer para simplificar a mecânica proposta a fim de
 É simples, você só precisa criar um objeto estático, que nesse caso seria o dinossauro, indexar um sprite de animação de corrida como *"default"* (ou seja, como estado inicial, o qual ele inicia e sempre volta caso não tenha nenhum evento específico que faça ele mudar seu estado) e fazer com que o cenário ao qual ele está inserido se mova gradativamente para trás sem que precise criar um cenário gigantesco, pois dá pra fazer isso repetindo a mesma arte infinitamente. O que podemos perceber com essa solução?
 Esse exemplo deixa bem claro um dos principais artíficios do *Game Design*, enganar o jogador, no caso do jogo do dinossauro, você engana o jogador a achar que o personagem está se movendo progressivamente para frente, sendo que na verdade o *background* que está se movendo gradativamente para trás.
 
-Esse assunto é abordado de formq detalhada em [link]()
+Esse assunto é abordado de forma detalhada em [link]()
 
 ## Fazendo o personagem executar ações
 
-Após fazer o sistema de movimentação do personagem, nós iremos fazer com que ele possa executar ações básicas, como pular.
+Após fazer o sistema de movimentação do personagem, nós iremos fazer com que ele possa executar ações básicas, como pular. Dito isso, nós começaremos realmente a falar sobre a linguagem de programação dedicada do Game Maker Studio 2, sobre as particularidades dos objetos (eventos e características, como hitbox e etc.).
 
+Assunto será abordado de forma mais específica em [link]()
+
+## Criando obstáculos/inimigos
+
+Em jogos, é comum haver obstáculos para que o jogador supere durante sua jornada, dando assim a sensação de progressão. Dito isso, para escolher um inimigo é importante levar em consideração o jogo que você quer criar e qual será o objetivo imposto para o jogador, para assim criar inimigos que se relacionem com a temática e objetivo do jogo.
 
 ---
 
