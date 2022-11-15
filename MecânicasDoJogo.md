@@ -14,11 +14,10 @@ Dito isso, o que precisamos fazer para clonar as mecânicas do jogo do Dinossaur
 
 Para um melhor entendimento do que iremos fazer será necessário criar alguns tópicos, sendo eles:
 
-1. Fazer com que o personagem *"corra"*;
-2. Fazer com que o personagem execute determinadas ações (pular, agachar, soltar laser pelo olho, etc.);
-3. Criar obstáculos para o jogador (inimigos);
-4. Criar spawn de obstáculos;
-5. Adicionar contador de *HighScore*;
+1. [Fazer com que o personagem *"corra"*](https://github.com/Jose-Alberto-Rodrigues-Neto/Dinossauro-Clone/edit/main/Mec%C3%A2nicasDoJogo.md#fazendo-com-que-o-personagem-corra);
+2. [Fazer com que o personagem execute determinadas ações (pular, agachar, soltar laser pelo olho, etc.)](https://github.com/Jose-Alberto-Rodrigues-Neto/Dinossauro-Clone/edit/main/Mec%C3%A2nicasDoJogo.md#fazendo-o-personagem-executar-a%C3%A7%C3%B5es);
+3. [Criar obstáculos para o jogador (inimigos)](https://github.com/Jose-Alberto-Rodrigues-Neto/Dinossauro-Clone/edit/main/Mec%C3%A2nicasDoJogo.md#criando-obst%C3%A1culosinimigos);
+4. [Criando senso de progressão com *HighScore*](https://github.com/Jose-Alberto-Rodrigues-Neto/Dinossauro-Clone/edit/main/Mec%C3%A2nicasDoJogo.md#criando-senso-de-progress%C3%A3o-com-highscore);
 
 ## Fazendo com que o personagem *"Corra"*
 
@@ -28,17 +27,31 @@ Dito isso, o que poderiamos fazer para simplificar a mecânica proposta a fim de
 É simples, você só precisa criar um objeto estático, que nesse caso seria o dinossauro, indexar um sprite de animação de corrida como *"default"* (ou seja, como estado inicial, o qual ele inicia e sempre volta caso não tenha nenhum evento específico que faça ele mudar seu estado) e fazer com que o cenário ao qual ele está inserido se mova gradativamente para trás sem que precise criar um cenário gigantesco, pois dá pra fazer isso repetindo a mesma arte infinitamente. O que podemos perceber com essa solução?
 Esse exemplo deixa bem claro um dos principais artíficios do *Game Design*, enganar o jogador, no caso do jogo do dinossauro, você engana o jogador a achar que o personagem está se movendo progressivamente para frente, sendo que na verdade o *background* que está se movendo gradativamente para trás.
 
-Esse assunto é abordado de forma detalhada em [link]()
+Esse assunto é abordado de forma detalhada em [link]().
 
 ## Fazendo o personagem executar ações
 
 Após fazer o sistema de movimentação do personagem, nós iremos fazer com que ele possa executar ações básicas, como pular. Dito isso, nós começaremos realmente a falar sobre a linguagem de programação dedicada do Game Maker Studio 2, sobre as particularidades dos objetos (eventos e características, como hitbox e etc.).
 
-Assunto será abordado de forma mais específica em [link]()
+Assunto será abordado de forma mais específica em [link]().
 
 ## Criando obstáculos/inimigos
 
 Em jogos, é comum haver obstáculos para que o jogador supere durante sua jornada, dando assim a sensação de progressão. Dito isso, para escolher um inimigo é importante levar em consideração o jogo que você quer criar e qual será o objetivo imposto para o jogador, para assim criar inimigos que se relacionem com a temática e objetivo do jogo.
+
+Levando em conta o conceito temático do nosso caso, um dinossauro correndo, vale ressaltar que os inimigos devem estar de acordo com o proposto. Dito isso, pode-se perceber que ter cactus como obstáculos não é algo tão intuitivo assim, até porque não é comum associar cactus ao périodo "Triássico", onde os grandes dinossauros reinavam. Assim, seria mais comum ter outros dinossauros como obstáculos, tentando destruir o dinossauro do jogador.
+
+Após definir quais obstáculos serão utilizados nós precisamos definir a ação que eles irão executar, para isso leva-se em consideração o objetivo proposto ao jogador, que em nosso caso é correr infinitamente. Tendo isso em mente, a mecânica mais simples de se replicar seria a mesma que tem no jogo do dinossauro da Google, fazer com que os inimigos corram em direção do jogador, tendo em vista que ele é estático na janela de visualização, por motivos que comentamos nos tópicos anteriores. Logo, para fazer com que essa ação inimiga ocorra é essencial que o inimigo tenha sua posição "x" mudada constantemente, fazendo com que ele corra na direção do jogador.
+
+Esse tópico é abordado de manéira prática neste [link]().
+
+## Criando senso de progressão com *HighScore*
+
+Após criar as principais mecânicas do jogo é essencial definir um artifício que transmita ao jogador a sensação de progressão. Dito isso, é importante salientar que da mesma forma que os outros tópicos, nós sempre devemos levar em consideração a temática do jogo para fazer qualquer adição no mesmo, lembrando que não há uma resposta fixa para isso, porém há respostas constantes/cabíveis. 
+Levando esse presuposto em consideração, para o nosso caso, a fim de simplificar esse feedback imediato será escolhido o *"HighScore"* para gerar no jogador uma sensação de progressão, fazendo com que ele sempre busque cada vez mais superar seu recorde anterior.
+
+Será abordado como fazer isso de forma prática nesse [link]().
+
 
 ---
 
