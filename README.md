@@ -17,7 +17,7 @@ Dito isto, nessa jornada iremos percorrer por alguns tópicos, tais quais:
 >   - POO - simplificada
 >   - Objetos que fazem parte da Room e suas segmentações
 >- [Mecânicas/Cerne do jogo do dinossauro](MecânicasDoJogo.md)
->   - Mecânicas do jogador
+>   - [Mecânicas do jogador](IniciandoObjetoJogador.md)
 >     - Movimento do jogador
 >     - Interação com a Room
 >     - Temporizador/Highscore e interações externas ao jogador
