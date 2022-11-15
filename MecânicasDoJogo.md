@@ -14,10 +14,10 @@ Dito isso, o que precisamos fazer para clonar as mecânicas do jogo do Dinossaur
 
 Para um melhor entendimento do que iremos fazer será necessário criar alguns tópicos, sendo eles:
 
-1. [Fazer com que o personagem *"corra"*](https://github.com/Jose-Alberto-Rodrigues-Neto/Dinossauro-Clone/edit/main/Mec%C3%A2nicasDoJogo.md#fazendo-com-que-o-personagem-corra);
-2. [Fazer com que o personagem execute determinadas ações (pular, agachar, soltar laser pelo olho, etc.)](https://github.com/Jose-Alberto-Rodrigues-Neto/Dinossauro-Clone/edit/main/Mec%C3%A2nicasDoJogo.md#fazendo-o-personagem-executar-a%C3%A7%C3%B5es);
-3. [Criar obstáculos para o jogador (inimigos)](https://github.com/Jose-Alberto-Rodrigues-Neto/Dinossauro-Clone/edit/main/Mec%C3%A2nicasDoJogo.md#criando-obst%C3%A1culosinimigos);
-4. [Criando senso de progressão com *HighScore*](https://github.com/Jose-Alberto-Rodrigues-Neto/Dinossauro-Clone/edit/main/Mec%C3%A2nicasDoJogo.md#criando-senso-de-progress%C3%A3o-com-highscore);
+1. Fazer com que o personagem *"corra"*;
+2. Fazer com que o personagem execute determinadas ações (pular, agachar, soltar laser pelo olho, etc.);
+3. Criar obstáculos para o jogador (inimigos);
+4. Criar senso de progressão com *HighScore*;
 
 ## Fazendo com que o personagem *"Corra"*
 
