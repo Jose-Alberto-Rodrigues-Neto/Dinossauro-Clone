@@ -1,6 +1,6 @@
 # Mecânicas do jogador
 
-Nessa seção iremos começar a trabalhar com códigos reais no Game Maker Studio 2 e daremos vida ao nosso personagem jogável, no caso o jogador. 
+Essa provavelmente será a seção mais longa que você irá ler, nela iremos começar a trabalhar com códigos reais no Game Maker Studio 2 e daremos vida ao nosso personagem jogável, no caso o jogador. 
 Para isso, iremos criar um Objeto, logo após nós daremos início a escrita dos algoritmos que irão executar a ação do personagem.
 
 ---
@@ -62,3 +62,8 @@ Assim o *"Sprite"* já está indexado no Objeto Jogador.
 
 # Começando a fazer os primeiros códigos
 
+Após criar o Objeto e dar a ele uma identidade visual, agora nós iremos começar a criar os códigos os quais irão proporcionar a execução de ações do personagem.
+
+Dito isso, iremos começar com a ação mais importante, **pular**.
+
+## Fazendo o Objeto Jogador pular
