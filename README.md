@@ -1,5 +1,8 @@
 # **Clone do jogo do dinossauro da Google**
 
+![image](https://user-images.githubusercontent.com/112759509/201800938-a19817d4-a784-413a-8bef-a162369c80d9.png)
+
+
 A fim de construir uma breve palestra sobre como criar um jogo em Game Maker Studio 2, que será ministrada durante a SIC (semana de integração ciêntifica) no IFCE Maracanaú no dia 08/11/2022, decidi criar um jogo clone do dinossauro da Google, tendo em vista que esse é um modelo simples e prático de jogos para iniciantes. 
 
 Dessa forma, será efetuada uma explicação sobre as peculiariades básicas da engine em questão, o necessário para se introduzir no ámbito da criação de jogos, mesmo que apenas atingindo sua superfície, ao menos inicialmente.
