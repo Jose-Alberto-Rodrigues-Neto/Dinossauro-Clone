@@ -45,9 +45,6 @@ A aba de *"Sprite"* passa a ser assim:
 
 ![Aba de Sprite](https://user-images.githubusercontent.com/112759509/201942308-302471b5-40dc-4fc3-9c17-0961459d8d85.png)
 
-
-## Indexando o *Sprite* ao Objeto Jogador
-
 Após criar o ***Spr_Jogador*** você deve indexa-lo ao ***Obj_Jogador***. Para isso, você deve voltar na aba do Objeto Jogador e clicar em *"No sprite"* => escolher a pasta *"Sprite"* => por fim selecionar o sprite desejado.
 
 ![Indexando Sprite](https://user-images.githubusercontent.com/112759509/201943155-50e2d68d-407b-41ce-b1fa-ae7950dd701f.png)
