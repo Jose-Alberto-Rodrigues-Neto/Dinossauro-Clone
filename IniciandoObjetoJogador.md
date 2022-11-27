@@ -68,7 +68,7 @@ Dito isso, iremos começar com a ação mais importante, **pular**.
 Para fazer o Objeto Jogador pular é necessário ter em mente como o Objeto se move na tela do computador, para isso precisamos saber como a tela do jogo se comporta.
 Dito isso, vale ressaltar que a tela do jogo se comporta como o quarto quadrante de um plano cartesiano. 
 
-![Plano Cartesiano](https://user-images.githubusercontent.com/112759509/204163382-e602866b-a602-4429-a09b-4cfb8f70085d.png)
+<img alt="Plano Cartesiano" width="400" height="400" src="https://user-images.githubusercontent.com/112759509/204163382-e602866b-a602-4429-a09b-4cfb8f70085d.png"/>
 
 Assim, caso o jogador queira se mover para a direita ele terá que aumentar sua posição *"X"* gradativamente conforme um botão for aumentado, no entanto, para fazer com que o persongaem pule nós precisamos fazer com que altere o seu eixo *"Y"* de forma que faça o personagem subir.
 Conforme o que foi explicado, é normal pensar que para fazer o personagem pular você deve aumentar de forma gradativa o valor *"Y"* do jogador, porém isso é um equívoco, pois devemos lembrar que a tela do computador se refere ao quarto quadrante de um plano cartesiano.
