@@ -64,3 +64,27 @@ Após criar o Objeto e dar a ele uma identidade visual, agora nós iremos começ
 Dito isso, iremos começar com a ação mais importante, **pular**.
 
 ## Fazendo o Objeto Jogador pular
+
+Para fazer o Objeto Jogador pular é necessário ter em mente como o Objeto se move na tela do computador, para isso precisamos saber como a tela do jogo se comporta.
+Dito isso, vale ressaltar que a tela do jogo se comporta como o quarto quadrante de um plano cartesiano. 
+
+![Plano Cartesiano](https://user-images.githubusercontent.com/112759509/204163382-e602866b-a602-4429-a09b-4cfb8f70085d.png)
+
+Assim, caso o jogador queira se mover para a direita ele terá que aumentar sua posição *"X"* gradativamente conforme um botão for aumentado, no entanto, para fazer com que o persongaem pule nós precisamos fazer com que altere o seu eixo *"Y"* de forma que faça o personagem subir.
+Conforme o que foi explicado, é normal pensar que para fazer o personagem pular você deve aumentar de forma gradativa o valor *"Y"* do jogador, porém isso é um equívoco, pois devemos lembrar que a tela do computador se refere ao quarto quadrante de um plano cartesiano.
+Assim, para fazer com que o jogador aumente seu valor *"Y"* para que ele pule nós devemos subitrair um valor do eixo *"Y"*, já que esse se inicia negativo, dito isso, sabe-se que negativo com negativo transforma-se em positivo.
+
+![image](https://user-images.githubusercontent.com/112759509/204163425-061c6dc0-7bb1-4c34-aff5-74488505ddea.png)
+
+Para esse fim, primeiro devemos criar um evento *Create* e iniciar uma váriavel referente ao valor que será adicionado ao eixo *Y*
+
+`AlturaDoPulo = 5;`
+
+Em seguida nós criamos um evento step no jogador e nele escrevemos a seguinte linha de código:
+
+`y -= AlturaDoSalto;`
+
+> Onde "y" é o valor referente a posição *Y* do jogador.
+> 
+> Já o "-=" (menos igual) é um operador de subtração, ele indica que o valor *Y* é subitraido constantimente pela váriavel "AlturaDoSalto", ficando assim: y = y - AlturaDoSalto
+
