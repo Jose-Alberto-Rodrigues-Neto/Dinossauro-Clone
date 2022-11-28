@@ -110,3 +110,10 @@ y += gravidade (preciso verificar se está correto ainda)
 ~~~
 
 Assim o Jogador irá cair constantemente após o início do jogo, ou até que o jogado aperte o botão programado para pular.
+
+![Jogador pulando parte 2](adicionar gif)
+
+
+---
+
+[Voltar para os tópicos](README.md)
