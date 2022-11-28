@@ -78,13 +78,35 @@ Assim, para fazer com que o jogador aumente seu valor *"Y"* para que ele pule n�
 
 Para esse fim, primeiro devemos criar um evento *Create* e iniciar uma váriavel referente ao valor que será adicionado ao eixo *Y*
 
-`AlturaDoPulo = 5;`
+~~~GML
+AlturaDoPulo = 8;
+~~~
 
-Em seguida nós criamos um evento step no jogador e nele escrevemos a seguinte linha de código:
+Em seguida nós criamos um evento *Step* no jogador e nele escrevemos a seguinte linha de código:
 
-`y -= AlturaDoSalto;`
+~~~GML
+y -= AlturaDoSalto; (preciso verificar se está correto ainda)
+~~~
 
 > Onde "y" é o valor referente a posição *Y* do jogador.
 > 
 > Já o "-=" (menos igual) é um operador de subtração, ele indica que o valor *Y* é subitraido constantimente pela váriavel "AlturaDoSalto", ficando assim: y = y - AlturaDoSalto
 
+![Jogador pulando parte 1](adicionar gif)
+
+Após esse processo você verá que há um problema nesse código, pois com ele a cada botão de comando para o pulo que você der o personagem irá subir, porém não cairá, tendo em vista que ele não está sendo afetado pela gravidade.
+Dito isso, fica óbvio qual será o próximo passo, nós teremos que criar a gravidade do jogador, para que assim ele possa cair apó o pulo.
+
+Para isso, nós vamos novamente no evento *Create* e iniciamos uma variável chamada de *"gravidade"* e atribuimos um valor a ela
+
+~~~GML
+gravidade = 5; 
+~~~
+
+Feito isso, temos que continuar para o *Step* e fazer com que a gravidade puxe o jogador constantemente par baixo, dessa forma nós escrevemos:
+
+~~~GML
+y += gravidade (preciso verificar se está correto ainda)
+~~~
+
+Assim o Jogador irá cair constantemente após o início do jogo, ou até que o jogado aperte o botão programado para pular.
