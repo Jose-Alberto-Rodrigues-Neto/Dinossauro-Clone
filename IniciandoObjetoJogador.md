@@ -116,4 +116,4 @@ Assim o Jogador irá cair constantemente após o início do jogo, ou até que o 
 
 ---
 
-[Voltar para os tópicos](README.md)
+[Voltar para a página inicial.](README.md)
