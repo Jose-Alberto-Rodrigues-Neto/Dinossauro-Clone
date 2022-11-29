@@ -92,7 +92,7 @@ y -= AlturaDoPulo;
 > 
 > Já o "-=" (menos igual) é um operador de subtração, ele indica que o valor *Y* é subitraido constantimente pela váriavel "AlturaDoSalto", ficando assim: y = y - AlturaDoSalto
 
-![Jogador subindo infinitamente](adicionar gif)
+![Jogador subindo infinitamente](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png)
 
 No Entanto, esse código apenas indica que o personagem irá subir infinitamente, porém, nós precisamos que o personagem pule somente quando o jogador apresentar essa intenção ao clicar em algum botão, em nosso caso o botão será a barra de espaço. Para isso, nós apagamos a linha do código anterior que foi escrita no *Step* e substítui-la por:
 
@@ -108,7 +108,7 @@ if (keyboard_check_pressed(vk_space)){
 > 
 > A condição escolhida para esse caso foi o "keyboard_check_pressed(vk_space)", o que significa que a cada momento em que o jogador pressione a barra de espaço o jogador irá aumentar o valor de seu *Y*.
 
-![Jogador obedecendo a condicional para subir](adicionar gif)
+![Jogador obedecendo a condicional para subir](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png)
 
 
 Após esse processo você verá que há um problema nesse código, pois com ele a cada botão de comando para o pulo que você der o personagem irá subir, porém não irá cair, tendo em vista que ele não está sendo afetado pela gravidade.
@@ -128,11 +128,17 @@ y += gravidade (preciso verificar se está correto ainda)
 
 Assim o Jogador irá cair constantemente após o início do jogo, ou até que o jogado aperte o botão programado para pular.
 
-![Jogador caindo](adicionar gif)
+![Jogador caindo](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png)
 
 Dessa forma, nós teremos uma mecânica de jogo semelhante ao do *Flappy Bird*, onde o personagem cairá constantemente e após cada clique do jogador o personagem irá subir, assim, tendo que se mater suspenso no ar sem que o jogador esbarre em algum obstáculo.
 
 Pórem, nosso objetivo é criar um clone do jogo do Dinossauro, ou seja, nós não queremos que ele caia infinitamente, para isso nós devemos criar um piso para o jogador, fazendo com que ele tenha um local físico para o qual ele possa cair sem que se depare com um abismo sem fim.
+
+Para isso, nós repetimos o mesmo processo de criação do Objeto Jogador, porém ao invés de desenhar um dragão, nós vamos fazer um quadrado colorido e por ele em baixo do dinossauro., vale ressaltar que o objeto tem que ser colocado como *"solido"*, fazendo com que o jogador não ultrapasse ele. Como podemos ver na imagem a seguir.
+
+![Imagem do jogo com o cubo abaixo do dinossauro](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png)
+
+
 
 ---
 
