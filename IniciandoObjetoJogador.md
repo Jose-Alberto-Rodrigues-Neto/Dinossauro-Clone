@@ -59,7 +59,9 @@ Assim o *"Sprite"* já está indexado no Objeto Jogador.
 
 # Começando a fazer os primeiros códigos
 
-Após criar o Objeto e dar a ele uma identidade visual, agora nós iremos começar a criar os códigos os quais irão proporcionar a execução de ações do personagem.
+Após criar o Objeto e dar a ele uma identidade visual, agora nós iremos começar a criar os códigos os quais irão proporcionar a execução de ações do personagem. No entanto, vale ressaltar que para que o código seja possível de ser efetuado, nós devemos colocar o Objeto Jogador na *Room*, para que assim ele seja criado na tela do jogo.
+
+![Colocando o personagem na Room](https://user-images.githubusercontent.com/112759509/204650377-1fcd14a8-3e42-4880-a67b-47270cac990b.png)
 
 Dito isso, iremos começar com a ação mais importante, **pular**.
 
@@ -134,9 +136,53 @@ Dessa forma, nós teremos uma mecânica de jogo semelhante ao do *Flappy Bird*, 
 
 Pórem, nosso objetivo é criar um clone do jogo do Dinossauro, ou seja, nós não queremos que ele caia infinitamente, para isso nós devemos criar um piso para o jogador, fazendo com que ele tenha um local físico para o qual ele possa cair sem que se depare com um abismo sem fim.
 
-Para isso, nós repetimos o mesmo processo de criação do Objeto Jogador, porém ao invés de desenhar um dragão, nós vamos fazer um quadrado colorido e por ele em baixo do dinossauro., vale ressaltar que o objeto tem que ser colocado como *"solido"*, fazendo com que o jogador não ultrapasse ele. Como podemos ver na imagem a seguir.
+Para isso, nós repetimos o mesmo processo de criação do Objeto Jogador, porém ao invés de desenhar um dragão, nós vamos fazer um quadrado colorido e por ele em baixo do dinossauro. Vale ressaltar que o objeto tem que ser colocado como *"solido"*, além de adicionar o um evento de colisão no jogador, fazendo com que o jogador não ultrapasse ele. 
+
+Como podemos ver na imagem a seguir, como criar o evento de colisão.
+
+![Criando evento colisão](https://user-images.githubusercontent.com/112759509/204650377-1fcd14a8-3e42-4880-a67b-47270cac990b.png)
+
+![Definindo a colisão](https://user-images.githubusercontent.com/112759509/204650377-1fcd14a8-3e42-4880-a67b-47270cac990b.png)
+
+Dessa forma, o jogo ficará assim:
 
 ![Imagem do jogo com o cubo abaixo do dinossauro](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png)
+
+Apó fazer com que o jogador tenha um solo para pisar, ainda falta mais um problema que devemos solucionar. Dito isso, esse problema é o dos pulos infinitos, pois você consegue pular enquanto está caindo no ar, porém o jogo original não possui essa mecânica. Assim, nós iremos fazer com que o jogador consiga pular novamente apenas quando encostar no chão
+
+Para esse fim, nós vamos no evento *Create* e criamos uma váriavel nova
+
+~~~GML
+pulos = 1;
+~~~
+
+> A variável pulos armazena o número de pulos que o jogador poderá efetuar.
+
+Para utilizar essa váriavel de forma efetiva nós iremos para o evento *Step* e atualizaremos a condição do pulo.
+
+~~~GML
+if keyboard_check_pressed(vk_space) && pulos>0{
+  y -= AlturaDoPulo;
+  pulos -= 1;
+}
+~~~
+
+> Ao atualizar a condicional do "if", agora nós precisamos que o jogador aperte a barra de espaço e que o número de pulos seja maior que zero
+> Após essa ação ocorrer, o código *"pulos -= 1*" irá diminuir o valor de pulos, anteriormente como um, então não terá a chance de pular mais uma vez enquanto estiver caindo
+
+Dando sequência ao código, não podemos deixar que o número de pulos continue como zero, pois se não ele não conseguirá pular mais uma vez. Assim, para fazer com que o jogador possa pular mais um vez nós precisamos fazer com que o valor de pulos volte a ser igual a um quando ele encostar no solo novamente.
+
+~~~GML
+if place_meeting(x, y, Obj_chao){
+	pulos = 1;		
+}
+~~~
+
+> O "if" do "place_meeting" define que o ponto *"X"* e o *"Y"* do jogador, quando entrar em contato com o Obj_chao irá mudar o valor de "pulos" para 1, fazendo com que possa pular novamente
+
+Com isso, o jogador poderá pular novamente após encostar no chão.
+
+Assim, nós temos a mecânica básica do jogo, no entanto essa não é a melhor forma de fazer com que o jogador pule. Como esse é um tutorial básico, mostrando da forma mais simplificada como fazer um jogo, posso abordar esse assunto em outro momento.
 
 
 
