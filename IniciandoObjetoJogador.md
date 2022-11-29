@@ -81,7 +81,7 @@ Assim, para fazer com que o jogador aumente seu valor *"Y"* para que ele pule n�
 Para esse fim, primeiro devemos criar um evento *Create* e iniciar uma váriavel referente ao valor que será adicionado ao eixo *Y*
 
 ~~~GML
-AlturaDoPulo = 8;
+AlturaDoPulo = 100;
 ~~~
 
 Em seguida nós criamos um evento *Step* no jogador e nele escrevemos a seguinte linha de código:
