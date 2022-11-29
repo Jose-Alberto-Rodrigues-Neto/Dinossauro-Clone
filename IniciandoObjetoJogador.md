@@ -85,16 +85,33 @@ AlturaDoPulo = 8;
 Em seguida nós criamos um evento *Step* no jogador e nele escrevemos a seguinte linha de código:
 
 ~~~GML
-y -= AlturaDoSalto; (preciso verificar se está correto ainda)
+y -= AlturaDoPulo;
 ~~~
 
 > Onde "y" é o valor referente a posição *Y* do jogador.
 > 
 > Já o "-=" (menos igual) é um operador de subtração, ele indica que o valor *Y* é subitraido constantimente pela váriavel "AlturaDoSalto", ficando assim: y = y - AlturaDoSalto
 
-![Jogador pulando parte 1](adicionar gif)
+![Jogador subindo infinitamente](adicionar gif)
 
-Após esse processo você verá que há um problema nesse código, pois com ele a cada botão de comando para o pulo que você der o personagem irá subir, porém não cairá, tendo em vista que ele não está sendo afetado pela gravidade.
+No Entanto, esse código apenas indica que o personagem irá subir infinitamente, porém, nós precisamos que o personagem pule somente quando o jogador apresentar essa intenção ao clicar em algum botão, em nosso caso o botão será a barra de espaço. Para isso, nós apagamos a linha do código anterior que foi escrita no *Step* e substítui-la por:
+
+~~~GML
+if (keyboard_check_pressed(vk_space)){
+  y -= AlturaDoPulo;
+}
+~~~
+
+> Nesse caso, precisamos explicar a utilização do "if". Com o "if", uma condicional (se), ele espera que alguma condição seja realizada para que a linha de código seja chamada.
+>
+> Dito isso, como o "if" está no *Step*, ele será verificado a cada *frame* do jogo, ou seja, a cada momento em que a condição for realizada o personagem irá subir.
+> 
+> A condição escolhida para esse caso foi o "keyboard_check_pressed(vk_space)", o que significa que a cada momento em que o jogador pressione a barra de espaço o jogador irá aumentar o valor de seu *Y*.
+
+![Jogador obedecendo a condicional para subir](adicionar gif)
+
+
+Após esse processo você verá que há um problema nesse código, pois com ele a cada botão de comando para o pulo que você der o personagem irá subir, porém não irá cair, tendo em vista que ele não está sendo afetado pela gravidade.
 Dito isso, fica óbvio qual será o próximo passo, nós teremos que criar a gravidade do jogador, para que assim ele possa cair apó o pulo.
 
 Para isso, nós vamos novamente no evento *Create* e iniciamos uma variável chamada de *"gravidade"* e atribuimos um valor a ela
@@ -111,8 +128,11 @@ y += gravidade (preciso verificar se está correto ainda)
 
 Assim o Jogador irá cair constantemente após o início do jogo, ou até que o jogado aperte o botão programado para pular.
 
-![Jogador pulando parte 2](adicionar gif)
+![Jogador caindo](adicionar gif)
 
+Dessa forma, nós teremos uma mecânica de jogo semelhante ao do *Flappy Bird*, onde o personagem cairá constantemente e após cada clique do jogador o personagem irá subir, assim, tendo que se mater suspenso no ar sem que o jogador esbarre em algum obstáculo.
+
+Pórem, nosso objetivo é criar um clone do jogo do Dinossauro, ou seja, nós não queremos que ele caia infinitamente, para isso nós devemos criar um piso para o jogador, fazendo com que ele tenha um local físico para o qual ele possa cair sem que se depare com um abismo sem fim.
 
 ---
 
