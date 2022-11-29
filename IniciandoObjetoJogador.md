@@ -99,7 +99,7 @@ y -= AlturaDoPulo;
 No Entanto, esse código apenas indica que o personagem irá subir infinitamente, porém, nós precisamos que o personagem pule somente quando o jogador apresentar essa intenção ao clicar em algum botão, em nosso caso o botão será a barra de espaço. Para isso, nós apagamos a linha do código anterior que foi escrita no *Step* e substítui-la por:
 
 ~~~GML
-if (keyboard_check_pressed(vk_space)){
+if keyboard_check_pressed(vk_space){
   y -= AlturaDoPulo;
 }
 ~~~
@@ -125,7 +125,7 @@ gravidade = 5;
 Feito isso, temos que continuar para o *Step* e fazer com que a gravidade puxe o jogador constantemente par baixo, dessa forma nós escrevemos:
 
 ~~~GML
-y += gravidade (preciso verificar se está correto ainda)
+y += gravidade
 ~~~
 
 Assim o Jogador irá cair constantemente após o início do jogo, ou até que o jogado aperte o botão programado para pular.
