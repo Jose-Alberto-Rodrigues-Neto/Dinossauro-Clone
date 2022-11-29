@@ -184,6 +184,8 @@ Com isso, o jogador poderá pular novamente após encostar no chão.
 
 Assim, nós temos a mecânica básica do jogo, no entanto essa não é a melhor forma de fazer com que o jogador pule. Como esse é um tutorial básico, mostrando da forma mais simplificada como fazer um jogo, posso abordar esse assunto em outro momento.
 
+Dessa maneira, nós encerramos esse tópico e podemos prosseguir para os próximos da lista.
+
 
 
 ---
