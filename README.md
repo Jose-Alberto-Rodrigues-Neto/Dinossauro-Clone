@@ -17,13 +17,12 @@ Dito isto, nessa jornada iremos percorrer por alguns tópicos, tais quais:
 >   - POO - simplificada
 >   - Objetos que fazem parte da Room e suas segmentações
 >- [Mecânicas/Cerne do jogo do dinossauro](MecânicasDoJogo.md)
->   - [Mecânicas do jogador](IniciandoObjetoJogador.md)
->      - Movimento do jogador
->      - Interação com a Room
->- [Inimigos](Inimigo.md)
->   - Mecânica do inimigo
->     - Velocidade do inimigo
->     - Hit-Kill ou dano contabilizado?
+>- [Mecânicas do jogador](IniciandoObjetoJogador.md)
+>    - Movimento do jogador
+>    - Interação com a Room
+>- [Mecânicas do inimigo](Inimigo.md)
+>    - Velocidade do inimigo
+>    - Hit-Kill ou dano contabilizado?
 >- Temporizador/Highscore e interações externas ao jogador
 >   -Contagem de pontos
 >   -Tela de início e tela de morte
