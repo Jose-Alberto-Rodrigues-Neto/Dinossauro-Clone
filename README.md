@@ -18,19 +18,15 @@ Dito isto, nessa jornada iremos percorrer por alguns tópicos, tais quais:
 >   - Objetos que fazem parte da Room e suas segmentações
 >- [Mecânicas/Cerne do jogo do dinossauro](MecânicasDoJogo.md)
 >   - [Mecânicas do jogador](IniciandoObjetoJogador.md)
->     - Movimento do jogador
->     - Interação com a Room
->     - Temporizador/Highscore e interações externas ao jogador
->     - *"Feeling"* ao jogar
+>      - Movimento do jogador
+>      - Interação com a Room
 >- Inimigos
 >   - Mecânica do inimigo
 >     - Velocidade do inimigo
 >     - Hit-Kill ou dano contabilizado?
->   - *"Spawn"* do inimigo
-> - Chefão? (passivo a mudanças, retirada caso não dê tempo fazer um chefão funcional)
->     - *"Spawn"* do chefão
->     - *"Move set"* do chefão
->     - Como matar o chefão
+>- Temporizador/Highscore e interações externas ao jogador
+>   -Contagem de pontos
+>   -Tela de início e tela de morte
 
 Obs: Vale ressaltar que os arquivos do projeto se encontram na branch ***"master"***. Não sabe como mudar de branch? 
 [Clique aqui!](TrocadeBranch.md)
