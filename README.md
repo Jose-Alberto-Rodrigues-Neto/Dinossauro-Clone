@@ -20,7 +20,7 @@ Dito isto, nessa jornada iremos percorrer por alguns tópicos, tais quais:
 >   - [Mecânicas do jogador](IniciandoObjetoJogador.md)
 >      - Movimento do jogador
 >      - Interação com a Room
->- Inimigos
+>- [Inimigos](Inimigo.md)
 >   - Mecânica do inimigo
 >     - Velocidade do inimigo
 >     - Hit-Kill ou dano contabilizado?
