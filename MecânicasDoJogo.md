@@ -33,7 +33,7 @@ Esse assunto é abordado de forma detalhada em [link]().
 
 Após fazer o sistema de movimentação do personagem, nós iremos fazer com que ele possa executar ações básicas, como pular. Dito isso, nós começaremos realmente a falar sobre a linguagem de programação dedicada do Game Maker Studio 2, sobre as particularidades dos objetos (eventos e características, como hitbox e etc.).
 
-Assunto será abordado de forma mais específica em [link]().
+Assunto será abordado de forma mais específica em [Iniciando o Objeto Jogador](IniciandoObjetoJogador.md).
 
 ## Criando obstáculos/inimigos
 
